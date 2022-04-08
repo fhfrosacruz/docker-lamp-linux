@@ -1,0 +1,6 @@
+O ARQUIVO .ENV ENTA OCULTO, FAÇA AS ALTERAÇõES NO SAMPLE.ENV E DEPOIS EXECUTE ESSE COMENDO NO TERMINAL
+cd docker-compose-lamp/
+cp sample.env .env
+// modify sample.env as needed
+docker-compose up -d
+// visit localhost
